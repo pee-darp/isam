@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/glc.dir/glc.cpp.o  -o ../../bin/glc -rdynamic ../../lib/libisam.a -lcholmod -lamd -lcolamd -lcamd -lccolamd 

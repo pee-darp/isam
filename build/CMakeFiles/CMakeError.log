@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebfeb/fast"
+make[1]: Entering directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ebfeb.dir/build.make CMakeFiles/cmTC_ebfeb.dir/build
+make[2]: Entering directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebfeb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ebfeb.dir/CheckSymbolExists.c.o   -c /home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ebfeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebfeb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ebfeb.dir/CheckSymbolExists.c.o  -o cmTC_ebfeb -rdynamic 
+CMakeFiles/cmTC_ebfeb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ebfeb.dir/build.make:97: recipe for target 'cmTC_ebfeb' failed
+make[2]: *** [cmTC_ebfeb] Error 1
+make[2]: Leaving directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebfeb/fast' failed
+make[1]: *** [cmTC_ebfeb/fast] Error 2
+make[1]: Leaving directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+
+File /home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0943f/fast"
+make[1]: Entering directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0943f.dir/build.make CMakeFiles/cmTC_0943f.dir/build
+make[2]: Entering directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0943f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0943f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0943f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0943f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0943f.dir/CheckFunctionExists.c.o  -o cmTC_0943f -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0943f.dir/build.make:97: recipe for target 'cmTC_0943f' failed
+make[2]: *** [cmTC_0943f] Error 1
+make[2]: Leaving directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0943f/fast' failed
+make[1]: *** [cmTC_0943f/fast] Error 2
+make[1]: Leaving directory '/home/snbenge/pradeep/isam/build/CMakeFiles/CMakeTmp'
+
+

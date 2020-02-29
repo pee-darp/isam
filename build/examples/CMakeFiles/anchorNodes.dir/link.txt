@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/anchorNodes.dir/anchorNodes.cpp.o  -o ../../bin/anchorNodes -rdynamic ../../lib/libisam.a -lcholmod -lamd -lcolamd -lcamd -lccolamd 

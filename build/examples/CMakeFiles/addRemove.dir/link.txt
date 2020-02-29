@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/addRemove.dir/addRemove.cpp.o  -o ../../bin/addRemove -rdynamic ../../lib/libisam.a -lcholmod -lamd -lcolamd -lcamd -lccolamd 

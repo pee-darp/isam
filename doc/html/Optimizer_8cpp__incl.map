@@ -1,0 +1,13 @@
+<map id="isamlib/Optimizer.cpp" name="isamlib/Optimizer.cpp">
+<area shape="rect" id="node3" href="$Optimizer_8h.html" title="Class implementing batch and incremental nonlinear equation solvers. " alt="" coords="303,80,422,107"/>
+<area shape="rect" id="node5" href="$OptimizationInterface_8h.html" title="Abstract base class for nonlinear optimizer. " alt="" coords="120,155,275,181"/>
+<area shape="rect" id="node4" href="$Properties_8h.html" title="Properties class for easy access to internal parameters. " alt="" coords="825,155,916,181"/>
+<area shape="rect" id="node6" href="$SparseSystem_8h.html" title="Adds rhs functionality to sparse matrix for iSAM. " alt="" coords="305,229,420,256"/>
+<area shape="rect" id="node17" href="$Node_8h.html" title="Graph node for iSAM. " alt="" coords="166,229,229,256"/>
+<area shape="rect" id="node21" href="$Cholesky_8h.html" title="Cholesky batch factorization using SuiteSparse by Tim Davis. " alt="" coords="401,155,485,181"/>
+<area shape="rect" id="node7" href="$OrderedSparseMatrix_8h.html" title="Adds column ordering to sparse matrix functionality for iSAM. " alt="" coords="433,304,586,331"/>
+<area shape="rect" id="node8" href="$SparseVector_8h_source.html" title="SparseVector.h" alt="" coords="520,453,629,480"/>
+<area shape="rect" id="node14" href="$SparseMatrix_8h.html" title="Sparse matrix functionality for iSAM. " alt="" coords="401,379,508,405"/>
+<area shape="rect" id="node9" href="$util_8h.html" title="Basic utility functions that are independent of iSAM. " alt="" coords="713,528,793,555"/>
+<area shape="rect" id="node19" href="$Element_8h.html" title="Basic functionality for nodes and factors of a graph. " alt="" coords="197,304,275,331"/>
+</map>

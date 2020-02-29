@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/covariances.dir/covariances.cpp.o  -o ../../bin/covariances -rdynamic ../../lib/libisam.a -lcholmod -lamd -lcolamd -lcamd -lccolamd 

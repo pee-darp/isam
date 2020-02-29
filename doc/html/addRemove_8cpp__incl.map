@@ -1,0 +1,29 @@
+<map id="examples/addRemove.cpp" name="examples/addRemove.cpp">
+<area shape="rect" id="node2" href="$Slam_8h.html" title="SLAM implementation using iSAM. " alt="" coords="965,229,1059,256"/>
+<area shape="rect" id="node37" href="$slam2d_8h.html" title="Provides specialized nodes and factors for 2D SLAM. " alt="" coords="1831,80,1935,107"/>
+<area shape="rect" id="node6" href="$SparseSystem_8h.html" title="Adds rhs functionality to sparse matrix for iSAM. " alt="" coords="971,453,1085,480"/>
+<area shape="rect" id="node16" href="$Node_8h.html" title="Graph node for iSAM. " alt="" coords="731,528,794,555"/>
+<area shape="rect" id="node19" href="$Factor_8h.html" title="Graph factor for iSAM. " alt="" coords="1503,379,1572,405"/>
+<area shape="rect" id="node26" href="$Graph_8h.html" title="Basic graph for iSAM. " alt="" coords="627,304,693,331"/>
+<area shape="rect" id="node28" href="$Properties_8h.html" title="Properties class for easy access to internal parameters. " alt="" coords="1131,379,1221,405"/>
+<area shape="rect" id="node29" href="$OptimizationInterface_8h.html" title="Abstract base class for nonlinear optimizer. " alt="" coords="1296,379,1451,405"/>
+<area shape="rect" id="node30" href="$Optimizer_8h.html" title="Class implementing batch and incremental nonlinear equation solvers. " alt="" coords="969,304,1055,331"/>
+<area shape="rect" id="node32" href="$Covariances_8h.html" title="Providing access to entries of the covariance. " alt="" coords="425,379,527,405"/>
+<area shape="rect" id="node7" href="$OrderedSparseMatrix_8h.html" title="Adds column ordering to sparse matrix functionality for iSAM. " alt="" coords="986,528,1139,555"/>
+<area shape="rect" id="node8" href="$SparseVector_8h_source.html" title="SparseVector.h" alt="" coords="1120,677,1229,704"/>
+<area shape="rect" id="node13" href="$SparseMatrix_8h.html" title="Sparse matrix functionality for iSAM. " alt="" coords="1024,603,1131,629"/>
+<area shape="rect" id="node9" href="$util_8h.html" title="Basic utility functions that are independent of iSAM. " alt="" coords="2653,752,2733,779"/>
+<area shape="rect" id="node17" href="$Element_8h.html" title="Basic functionality for nodes and factors of a graph. " alt="" coords="718,603,797,629"/>
+<area shape="rect" id="node22" href="$Jacobian_8h.html" title="Jacobian and terms. " alt="" coords="1550,752,1634,779"/>
+<area shape="rect" id="node23" href="$Noise_8h.html" title="Various noise models. " alt="" coords="1744,603,1808,629"/>
+<area shape="rect" id="node25" href="$numericalDiff_8h.html" title="Numerical differentiation. " alt="" coords="1600,453,1707,480"/>
+<area shape="rect" id="node31" href="$Cholesky_8h.html" title="Cholesky batch factorization using SuiteSparse by Tim Davis. " alt="" coords="1022,379,1106,405"/>
+<area shape="rect" id="node34" href="$covariance_8h.html" title="Recovery of marginal covariance matrix. " alt="" coords="325,453,419,480"/>
+<area shape="rect" id="node39" href="$Pose2d_8h.html" title="Simple 2D pose class. " alt="" coords="1973,603,2048,629"/>
+<area shape="rect" id="node40" href="$Point2d_8h.html" title="Simple 2D point class. " alt="" coords="2011,752,2087,779"/>
+<area shape="rect" id="node41" href="$Anchor_8h.html" title="Implementation of the anchor node. " alt="" coords="1846,155,1919,181"/>
+<area shape="rect" id="node42" href="$Pose3d_8h.html" title="3D pose class. " alt="" coords="2380,528,2455,555"/>
+<area shape="rect" id="node44" href="$Rot3d_8h.html" title="3D rotation class. " alt="" coords="2580,603,2647,629"/>
+<area shape="rect" id="node45" href="$Point3d_8h.html" title="Simple 3D point class. " alt="" coords="2214,677,2290,704"/>
+<area shape="rect" id="node46" href="$Point3dh_8h.html" title="3D homogeneous point class. " alt="" coords="2416,603,2499,629"/>
+</map>
